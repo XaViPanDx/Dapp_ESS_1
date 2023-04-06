@@ -3,9 +3,25 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
 
+import { EthProvider } from "./contexts/EthContext";
+import { DaoFactoryProvider } from "./contexts/DaoFactoryContext";
+import { NewDaoProvider } from "./contexts/NewDaoContext";
+import { NewTokenProvider } from "./contexts/NewTokenContext";
+import { NewVotingProvider } from "./contexts/NewVotingContext";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <EthProvider>
+      <DaoFactoryProvider>
+        <NewDaoProvider>
+          <NewTokenProvider>
+            <NewVotingProvider>
+              <App />
+            </NewVotingProvider>
+          </NewTokenProvider>
+        </NewDaoProvider>
+      </DaoFactoryProvider>
+    </EthProvider>
   </React.StrictMode>
 );
