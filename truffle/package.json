@@ -1,0 +1,21 @@
+{
+  "name": "truffle-project",
+  "version": "0.1.0",
+  "description": "Truffle project with SimpleStorage contract",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "@truffle/provider": "^0.3.7",
+    "dotenv": "^16.0.3",
+    "eth-gas-reporter": "^0.2.25",
+    "eth-json-rpc-filters": "^6.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "web3-provider-engine": "^16.0.5",
+    "web3-providers-http": "^1.9.0",
+    "web3-providers-ws": "^1.9.0"
+  }
+}
