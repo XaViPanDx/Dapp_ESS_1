@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, useCallback } from "react";
+/*import React, { useState, useContext, useEffect, useCallback } from "react";
 import { DaoFactoryContext, setNewDaoAddress } from "../contexts/DaoFactoryContext";
 import useNewDaoContext from "../contexts/NewDaoContext/useNewDaoContext";
 
@@ -74,5 +74,5 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home;*/
 

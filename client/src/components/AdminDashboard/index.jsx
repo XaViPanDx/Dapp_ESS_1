@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+/*import React, { useContext } from "react";
 import { DaoFactoryContext } from "../contexts/DaoFactoryContext";
 import { EthContext } from "../contexts/EthContext";
 
@@ -19,11 +19,11 @@ function AdminDashboard() {
           <p>Name: {dao.name}</p>
           <p>Description: {dao.description}</p>
           <p>Address: {dao.address}</p>
-          {/* +++ */}
+          {/* +++ *//*}
         </div>
       ))}
     </div>
   );
 }
 
-export default AdminDashboard;
+export default AdminDashboard;*/

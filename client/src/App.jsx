@@ -6,6 +6,8 @@ import Demo from "./components/Demo";
 import Footer from "./components/Footer";
 import AdminDashboard from "./components/AdminDashboard";
 
+import Home from "./components/Home";
+
 function App() {
   return (
     //<EthProvider>
